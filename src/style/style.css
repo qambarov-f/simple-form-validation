@@ -1,0 +1,100 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  justify-content: flex-start; 
+  min-height: 100vh; 
+  margin: 0;
+  padding: 20px;
+  }
+  
+  .card {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 50%;
+    max-width: 500px;
+    margin: 20px;
+    height: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: xx-large;
+    
+  }
+  
+  .formTag {
+    display: grid;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"],
+  input[type="password"],
+  select,
+  textarea,
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ 
+  label {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+
+ 
+  #remember {
+    margin-right: 5px;
+  }
+  
+  
+  textarea {
+    resize: vertical;
+  }
+
+    input[type="color"] {
+        border-radius: 5px;
+    }
+   
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    }
+    
+    td, th {
+
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+    
+
+ 

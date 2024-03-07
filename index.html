@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Formu Doldur</h1>
+        <hr>
+        <form action="" class="formTag">
+            <!-- name -->
+            <label for="name">Adınız</label>
+            <input id="name" type="text" placeholder="Adınızı daxil edin">
+            
+            <!-- surname -->
+            <label for="surname">Soyadınız</label>
+            <input id="surname" type="text" placeholder="Soyadınızı daxil edin">
+           
+            <!-- email -->
+            <label for="email">Emailiniz</label>
+            <input id="email" type="email" placeholder="Emailinizi daxil edin">
+
+            <!-- birthday -->
+            <label for="birth">Doğum tarixiniz</label>
+            <input id="birth" type="date" placeholder="Doğum tarixinizi qeyd edin">
+
+            <!-- age -->
+            <label for="age">Yaşınız</label>
+            <input id="age" type="number" placeholder="Yaşınızı daxil edin">
+         
+            
+            <!-- gender -->
+            <label for="">Cinsiniz:
+
+                <label for="male">Kişi
+                    <input type="radio" id="male" name="gender">
+                </label>
+                <label for="female">Qadın
+                    <input type="radio" id="female" name="gender">
+                </label>
+            </label>
+            
+            <!-- birth country -->
+            <label for="countries">Doğulduğunuz ölkə</label>
+            <select id="countries">
+                <option value="aze" selected>Aze</option>
+                <option value="rus">Rus</option>
+                <option value="ir">İr</option>
+                <option value="geo">Geo</option>
+              </select>
+
+            <!-- number -->
+            <label for="phone">Əlaqə nömrəniz</label>
+            <input id="phone" type="number" placeholder="Əlaqə nömrənizi daxil edin">
+
+            <!-- password -->
+            <label for="password">Şifrəniz</label>
+            <input id="password" type="password" placeholder="Şifrənizi daxil edin">
+
+            <!-- favorite color -->
+            <label for="color">Sevimli rənginiz</label>
+            <input id="color" type="color">
+
+            <!-- remember me -->
+            <label for="remember">Məni xatırla
+                <input type="checkbox" id="remember">
+            </label>
+
+            <!-- special message -->
+            <label for="text">Mesajınızı yazın</label>
+            <textarea name="" id="text" cols="30" rows="10"></textarea>
+
+            <!-- add image -->
+            <label for="add">Şəklinizi daxil edin</label>
+            <input type="file" id="add">
+
+            <!-- accept button -->
+            <button>Göndər</button>
+        </form>
+    </div>
+    <br><br>
+    <!-- table div -->
+    <div>
+        <table>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Email</th>
+                <th>Doğum tarixi</th>
+                <th>Yaşınız</th>
+                <th>Cins</th>
+                <th>Doğulduğunuz ölkə</th>
+                <th>Əlaqə nömrəsi</th>
+            </tr>
+            <tr>
+                <td>Feyruz </td>
+                <td>Qəmbərov</td>
+                <td>gambarovfeyruz@gmail.com</td>
+                <td>17.08.1999</td>
+                <td>25</td>
+                <td>Kişi</td>
+                <td>Azərbaycan</td>
+                <td>+994553281949</td>
+            </tr>
+            <tr>
+                <td>Dimitri </td>
+                <td>Valerinko</td>
+                <td>valeridito@gmail.com</td>
+                <td>11.01.2002</td>
+                <td>23</td>
+                <td>Kişi</td>
+                <td>Rus</td>
+                <td>+79855644758</td>
+            </tr>
+            <tr>
+                <td>Madina </td>
+                <td>Şidəpurdi</td>
+                <td>madinaşid@mail.com</td>
+                <td>01.12.1987</td>
+                <td>37</td>
+                <td>Qadın</td>
+                <td>İr</td>
+                <td>+648458844884</td>
+            </tr>
+    </table>
+</div>
+</body>
+</html>
